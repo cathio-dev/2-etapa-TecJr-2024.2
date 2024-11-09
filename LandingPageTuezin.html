@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Online</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- Barra de Navegação -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <div class="container">
+        
+        <!-- Seção de Produtos -->
+        <section id="produtos">
+            <h2>Nossos Produtos</h2>
+            <div class="catalogo">
+                <div class="produto" onclick="openModal('Produto 1')">
+                    <img src="Imagens\MoletomTUE.jpg" alt="Produto 1">
+                    <p>Produto 1</p>
+                </div>
+                <div class="produto" onclick="openModal('Produto 2')">
+                    <img src="Imagens\camisetaOSOM.jpg" alt="Produto 2">
+                    <p>Produto 2</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Carrossel de Imagens -->
+        <section id="carrossel">
+            <h2>Carrossel de Imagens</h2>
+            <div class="carousel">
+                <img src="images/imagem1.jpg" alt="Imagem 1">
+                <img src="images/imagem2.jpg" alt="Imagem 2">
+                <img src="images/imagem3.jpg" alt="Imagem 3">
+            </div>
+        </section>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p id="modal-text"></p>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    </body>
+</html>
