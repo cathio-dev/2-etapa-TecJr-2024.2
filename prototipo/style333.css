@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif; /*fonte padrão*/
+}
+
+/* Estilo para a seção de descrição */
+#descricao {
+    padding: 20px;
+    background-color: #5257ff; /* Cor de fundo leve para destaque */
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+#descricao h2 {
+    color: #000000;
+}
+
+#descricao p {
+    color: #020000;
+    font-size: 1.1em;
+}
+
+#carrossel img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.card {
+    margin-top: 30px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
